@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ClipCraze — Livestreams to highlights</title>
+  <meta name="description" content="ClipCraze is a locally run app for monitoring livestreams, finding highlight moments, and creating clips with optional social account connections.">
+  <meta name="theme-color" content="#110e19">
+  <link rel="canonical" href="https://ramon-l-vazquez.github.io/clipcraze-info/">
+  <link rel="icon" type="image/png" href="/clipcraze-info/assets/clipcraze-logo.png">
+  <link rel="stylesheet" href="/clipcraze-info/assets/site.css">
+  <meta property="og:title" content="ClipCraze — Livestreams to highlights">
+  <meta property="og:description" content="Monitor livestreams, find the moments, and create clips on your own PC.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ramon-l-vazquez.github.io/clipcraze-info/">
+  <meta property="og:image" content="https://ramon-l-vazquez.github.io/clipcraze-info/assets/clipcraze-logo.png">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="/clipcraze-info/" aria-label="ClipCraze home"><img src="/clipcraze-info/assets/clipcraze-logo.png" width="45" height="45" alt="">ClipCraze</a>
+      <div class="nav-links"><a href="/clipcraze-info/" aria-current="page">About</a><a href="/clipcraze-info/terms/">Terms of Service</a><a href="/clipcraze-info/privacy/">Privacy Policy</a></div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow">Livestreams → highlights</p>
+        <h1 id="hero-title">Catch the moment.<br><em>Keep the good part.</em></h1>
+        <p class="intro">ClipCraze brings livestream watchlists, highlight detection, and clip creation together in an app that runs on your PC.</p>
+        <a class="button" href="#how-it-works">See how it works <span aria-hidden="true">↗</span></a>
+        <p class="development">In local development · TikTok integration in sandbox testing</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="ClipCraze logo above an illustrated timeline with a highlight selection">
+        <div class="art-top"><span>Find your next highlight</span><span>On your PC</span></div>
+        <img class="hero-logo" src="/clipcraze-info/assets/clipcraze-logo.png" width="1254" height="1254" alt="" fetchpriority="high">
+        <div class="timeline" aria-hidden="true"><div class="timeline-heading"><span>A moment worth keeping</span><span>✦ Highlight</span></div><div class="timeline-track"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><div class="timeline-window"></div></div></div>
+        <p class="art-caption">Workflow illustration</p>
+      </div>
+    </section>
+    <div class="principles wrap" aria-label="Product principles"><p><span aria-hidden="true">↗</span>Your watchlists, in one view</p><p><span aria-hidden="true">✦</span>Highlights you can review</p><p><span aria-hidden="true">⌂</span>Media saved on your PC</p></div>
+    <section class="workflow wrap" id="how-it-works" aria-labelledby="workflow-title">
+      <div class="section-heading"><p class="eyebrow">From watching to making</p><h2 id="workflow-title">A place for the whole process.</h2><p>Follow the streams you have permission to use, find useful moments, and turn them into clips.</p></div>
+      <div class="steps">
+        <article class="step"><span class="step-number">01 / MONITOR</span><h3>Build your watchlist.</h3><p>Group creators by platform and see available live status, viewer counts, and previews. Availability depends on each platform and your configured data providers.</p></article>
+        <article class="step"><span class="step-number">02 / FIND</span><h3>Surface the moments.</h3><p>Local audio, video, and transcript analysis help identify candidate highlights. Configured chat and viewer signals can add context to the selection.</p></article>
+        <article class="step"><span class="step-number">03 / CREATE</span><h3>Make the clip yours.</h3><p>Render clips with saved editor presets, including vertical formats. Review the result, keep the local file, and use supported sharing options when configured.</p></article>
+      </div>
+    </section>
+    <section class="connection-section" aria-labelledby="connections-title">
+      <div class="connection-grid wrap">
+        <div><p class="eyebrow">Account connections</p><h2 id="connections-title">Choose what you connect.</h2><p>Account authorization happens with the platform. You review the requested permissions there, then return to the ClipCraze app running locally.</p><p class="connection-note">TikTok Login Kit is currently being tested with authorized sandbox accounts. Public availability and extra capabilities depend on platform access and approval.</p></div>
+        <div class="permissions">
+          <article class="permission"><span class="permission-number">01</span><div><h3>Basic TikTok account identity</h3><p>The default login requests <code>user.info.basic</code> to identify the connected account and display its account name. It does not grant video posting permission.</p></div></article>
+          <article class="permission"><span class="permission-number">02</span><div><h3>Additional access is optional</h3><p>Video metrics or inbox upload require separate permissions and supported API access. An inbox upload still requires you to finish the post in TikTok.</p></div></article>
+          <article class="permission"><span class="permission-number">03</span><div><h3>Disconnect when you choose</h3><p>Disconnect locally in Developer Settings to remove the saved account tokens. You can also revoke access in your platform account settings.</p></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="data-section wrap" aria-labelledby="data-title">
+      <div class="data-grid">
+        <div><p class="eyebrow">Your workspace</p><h2 id="data-title">Made to run locally.</h2><p>The dashboard, media processing, and saved clips run on your computer. This public website explains the project; it does not host the dashboard or connect to your local files.</p><div class="policy-links"><a href="/clipcraze-info/privacy/">Read the Privacy Policy ↗</a><a href="/clipcraze-info/terms/">Read the Terms ↗</a></div></div>
+        <ul class="data-points"><li>Stream media, transcripts, and generated clips are stored in your local workspace.</li><li>Saved OAuth tokens and developer credentials use Windows protected storage in the current Windows version.</li><li>Configured platforms and providers receive the requests needed for the features you enable.</li><li>The project is in development. No public download is currently offered on this site.</li></ul>
+      </div>
+    </section>
+    <section class="support wrap" aria-labelledby="support-title"><div><h2 id="support-title">Questions about ClipCraze?</h2><p>Contact the project maintainer for support or privacy requests.</p></div><a href="mailto:ramonlvazq@gmail.com">ramonlvazq@gmail.com ↗</a></section>
+  </main>
+  <footer class="site-footer"><div class="footer-row wrap"><span>© 2026 ClipCraze · An independent project</span><div class="footer-links"><a href="/clipcraze-info/terms/">Terms of Service</a><a href="/clipcraze-info/privacy/">Privacy Policy</a><a href="mailto:ramonlvazq@gmail.com">Contact</a></div></div></footer>
+</body>
+</html>
